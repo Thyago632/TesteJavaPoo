@@ -1,4 +1,4 @@
-package main.java.com.exemplo;
+package com.exemplo;
 
 import com.exemplo.service.AccountService;
 import com.exemplo.service.EmailService;

@@ -2,3 +2,19 @@ modules = ["java-graalvm22.3"]
 
 [nix]
 channel = "stable-25_05"
+
+[workflows]
+runButton = "Run Java Application"
+
+[[workflows.workflow]]
+name = "Run Java Application"
+author = 46898006
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "javac -cp src -d out src/main/java/com/exemplo/*.java src/main/java/com/exemplo/**/*.java"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "java -cp out com.exemplo.Main"

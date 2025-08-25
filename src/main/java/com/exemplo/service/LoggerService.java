@@ -1,4 +1,4 @@
-package main.java.com.exemplo.service;
+package com.exemplo.service;
 
 public interface LoggerService {
     void logAccountCreation(String username);

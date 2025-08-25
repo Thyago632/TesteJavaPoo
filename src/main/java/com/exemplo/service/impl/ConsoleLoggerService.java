@@ -1,4 +1,4 @@
-package main.java.com.exemplo.service.impl;
+package com.exemplo.service.impl;
 
 import com.exemplo.service.LoggerService;
 

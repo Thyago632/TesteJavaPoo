@@ -1,5 +1,6 @@
-package main.java.com.exemplo.service.impl;
-import com.*;
+package com.exemplo.service.impl;
+
+import com.exemplo.service.EmailService;
 
 public class SmtpEmailService implements EmailService {
     @Override

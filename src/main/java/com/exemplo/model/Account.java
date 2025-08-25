@@ -1,4 +1,4 @@
-package main.java.com.exemplo.model;
+package com.exemplo.model;
 
 public class Account {
     private String username;
